@@ -10,7 +10,8 @@ public class program_8 {
             while (a != b) {
                 System.out.println("2+2?");
                 System.out.print("otvet: ");
-                int ans = myscan.nextInt();
+                int c = myscan.nextInt();
+                a = c;
             }
         }
     }
